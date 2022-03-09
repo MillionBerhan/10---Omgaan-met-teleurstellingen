@@ -1,9 +1,9 @@
 import webbrowser,time
 print("Welkom bij Pizzeria Berhano!")
 print("Wat wilt u bestellen?") 
-priceSM= 3.99
-priceME= 4.99
-priceLA= 5.99
+priceSM = 3.99
+priceME = 4.99
+priceLA = 5.99
 
 while True:
     try:
@@ -32,4 +32,3 @@ print (f"Total price Incl.VAT:£{round(total,2)}")
 print ("Bedankt voor de bestelling namens Milliono Berhano, wensen wij u een fijne dag toe!\nHeeft u nog vragen neem dan gerust contact op met ons op!\nContact&Service:\nKlantenservice:085-7078975\nMail:PizzeriaBerhano71@yahoo.com\nAdres:Mollenburgseweg 82\n4205NB Gorinchem\nPostbus 859\nDe beste pizza's vind je bij Pizzeria Berhano!")
 time.sleep(5)
 webbrowser.open("https://www.youtube.com/watch?v=Arlcn4e6sTE")
-
